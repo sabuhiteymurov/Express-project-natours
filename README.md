@@ -66,7 +66,3 @@ $ npm start
 ```
 
   View the website at: http://localhost:3000
-
-## License
-
-  [MIT](LICENSE)
