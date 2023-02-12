@@ -57,24 +57,6 @@ for more information.
   * [Google Group](https://groups.google.com/group/express-js) for discussion
   * [Gitter](https://gitter.im/expressjs/express) for support and discussion
 
-**PROTIP** Be sure to read [Migrating from 3.x to 4.x](https://github.com/expressjs/express/wiki/Migrating-from-3.x-to-4.x) as well as [New features in 4.x](https://github.com/expressjs/express/wiki/New-features-in-4.x).
-
-## Quick Start
-
-  The quickest way to get started with express is to utilize the executable [`express(1)`](https://github.com/expressjs/generator) to generate an application as shown below:
-
-  Install the executable. The executable's major version will match Express's:
-
-```console
-$ npm install -g express-generator@4
-```
-
-  Create the app:
-
-```console
-$ express /tmp/foo && cd /tmp/foo
-```
-
   Install dependencies:
 
 ```console
@@ -88,65 +70,6 @@ $ npm start
 ```
 
   View the website at: http://localhost:3000
-
-## Philosophy
-
-  The Express philosophy is to provide small, robust tooling for HTTP servers, making
-  it a great solution for single page applications, websites, hybrids, or public
-  HTTP APIs.
-
-  Express does not force you to use any specific ORM or template engine. With support for over
-  14 template engines via [Consolidate.js](https://github.com/tj/consolidate.js),
-  you can quickly craft your perfect framework.
-
-## Examples
-
-  To view the examples, clone the Express repo and install the dependencies:
-
-```console
-$ git clone https://github.com/expressjs/express.git --depth 1
-$ cd express
-$ npm install
-```
-
-  Then run whichever example you want:
-
-```console
-$ node examples/content-negotiation
-```
-
-## Contributing
-
-  [![Linux Build][github-actions-ci-image]][github-actions-ci-url]
-  [![Windows Build][appveyor-image]][appveyor-url]
-  [![Test Coverage][coveralls-image]][coveralls-url]
-
-The Express.js project welcomes all constructive contributions. Contributions take many forms,
-from code for bug fixes and enhancements, to additions and fixes to documentation, additional
-tests, triaging incoming pull requests and issues, and more!
-
-See the [Contributing Guide](Contributing.md) for more technical details on contributing.
-
-### Security Issues
-
-If you discover a security vulnerability in Express, please see [Security Policies and Procedures](Security.md).
-
-### Running Tests
-
-To run the test suite, first install the dependencies, then run `npm test`:
-
-```console
-$ npm install
-$ npm test
-```
-
-## People
-
-The original author of Express is [TJ Holowaychuk](https://github.com/tj)
-
-The current lead maintainer is [Douglas Christopher Wilson](https://github.com/dougwilson)
-
-[List of all contributors](https://github.com/expressjs/express/graphs/contributors)
 
 ## License
 
